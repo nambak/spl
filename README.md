@@ -135,9 +135,7 @@ SPL은 일련의 표준 예외를 제공합니다.
 
 ## SPL 함수
 
-### 목차
 
----
 * class_implements - 주어진 클래스나 인터페이스에 의해 구현된 인터페이스를 반환합니다.
 * class_parents - 주어진 클래스의 부모 클래스를 반환
 * class_uses - 주어진 클래스가 사용하는 특성을 반환한다.
@@ -160,9 +158,7 @@ SPL은 일련의 표준 예외를 제공합니다.
 
 SPL은 파일 작업을위한 여러 클래스를 제공합니다.
 
-### 목차
 
----
 * SplFileInfo
 * SplFileObject
 * SplTempFileObject
@@ -173,9 +169,7 @@ SPL은 파일 작업을위한 여러 클래스를 제공합니다.
 
 다른 SPL 범주에 맞지 않는 클래스 및 인터페이스.
 
-### 목차
 
----
 * ArrayObject
 * SplObserver
 * SplSubject
