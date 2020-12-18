@@ -132,5 +132,50 @@ SPL은 일련의 표준 예외를 제공합니다.
   * UnexpectValueException
 
 
+
 ## SPL 함수
 
+### 목차
+
+---
+* class_implements - 주어진 클래스나 인터페이스에 의해 구현된 인터페이스를 반환합니다.
+* class_parents - 주어진 클래스의 부모 클래스를 반환
+* class_uses - 주어진 클래스가 사용하는 특성을 반환한다.
+* iterator_apply - iterator의 모든 요소에 대한 함수 호출
+* iterator_count - iterator의 요소 개수
+* iterator_to_array - iterator를 배열로 복사
+* spl_autoload_call - 등록된 모든 __autoload()함수를 사용하여 요청된 클래스를 로드합니다.
+* spl_autoload_extensions - spl_autoload에 대한 기본 파일 확장자 등록 및 반환
+* spl_autoload_functions - 등록된 모든 __autoload()함수를 반환합니다.
+* spl_autoload_register - 주어진 함수를 __autoload() 구현으로 등록합니다.
+* spl_autoload_unregister - 주어진 함수를 __autoload() 구현으로 등록 해제합니다.
+* spl_autoload - __autoload()의 기본 구현
+* spl_classes - 사용가능한 SPL 클래스 반환
+* spl_object_hash - 주어진 객체에 대한 해시 ID를 반환합니다.
+* spl_object_id - 주어진 객체에 대한 정수 객체 핸들을 반환합니다.
+
+
+
+## 파일 처리
+
+SPL은 파일 작업을위한 여러 클래스를 제공합니다.
+
+### 목차
+
+---
+* SplFileInfo
+* SplFileObject
+* SplTempFileObject
+
+
+
+## 기타 클래스 및 인터페이스
+
+다른 SPL 범주에 맞지 않는 클래스 및 인터페이스.
+
+### 목차
+
+---
+* ArrayObject
+* SplObserver
+* SplSubject
