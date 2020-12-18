@@ -46,3 +46,91 @@ Double Liked List(DLL)은 양방향으로 서로 연결된 노드 목록입니�
 
 ---
 맵은 키-값 쌍을 보유하는 데이터 구조입니다. PHP 배열은 정수/문자열에서 값으로의 맵으로 볼 수 있습니다. SPL은 객체에서 데이터로의 맵을 제공합니다. 이 맵은 객체 세트로도 사용할 수 있습니다.
+
+* SplObjectStorage
+
+
+## 반복자
+
+SPL은 객체를 순회하는 Iterator 세트를 제공합니다.
+
+### SPL Iterators Class Tree
+
+---
+* ArrayIterator
+  * RecursiveArrayIterator
+  
+
+* EmptyIterator
+* IteratorIterator
+  * AppendIterator
+  * CachingIterator
+    * RecursiveCachingIterator
+  * FilterIterator
+    * CallbackFilterIterator
+      * RecursiveCallbackFilterIterator
+    * RecursiveFilterIterator
+      * ParentIterator
+    * RegxIterator
+      * RecursiveRegxIterator
+    * InfiniteIterator
+    * LimitIterator
+    * NoRewindIterator
+  
+  
+* MultipleIterator
+* RecursiveIterator
+  * RecursiveTreeIterator
+  
+
+* DirectoryIterator(SplFileInfo의 확장)
+  * FilesystemIterator
+    * GlobIterator
+    * RecursiveDirectoryIterator
+
+
+## 인터페이스
+
+SPL은 인터페이스 세트를 제공합니다. 
+
+[미리 정의된 인터페이스와 클래스](https://www.php.net/manual/en/reserved.interfaces.php)참조
+
+### Interface List
+
+---
+* Countable
+* OuterIterator
+* RecursiveIterator
+* SeekableIterator
+* SplObserver
+* SplSubject
+
+
+## 예외
+
+SPL은 일련의 표준 예외를 제공합니다.
+
+[미리 정의된 예외](https://www.php.net/manual/en/reserved.exceptions.php)참조
+
+### SPL Exceptions Class Tree
+
+---
+* LogicException(Exception의 확장)
+  * BadFunctionCallException
+    * BadMethodCallException
+  * DomainException
+  * InvalidArgumentException
+  * LengthException
+  * OutOfRangeException
+
+
+* RuntimeException(Exception의 확장)
+  * OutOfBoundsException
+  * OverflowException
+  * RangeException
+  * UnderflowException
+  * UnexpectValueException
+
+
+## SPL 함수
+
